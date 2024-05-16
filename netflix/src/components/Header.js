@@ -1,7 +1,7 @@
 import React from 'react'
 import { IoIosArrowDropdown } from "react-icons/io";
 
-export const Header = () => {
+const Header = () => {
   return (
     <div className='absolute z-10 flex w-[100vw] items-centre justify-between px-6 bg-gradient-to-b from-black'>
       <img className='w-56' src='https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png' alt="Netflix Logo" />
