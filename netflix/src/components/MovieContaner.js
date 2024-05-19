@@ -1,8 +1,12 @@
 import React from 'react'
+import MovieList from './MovieList'
+import MovieCard from './MovieCard'
 
 const MovieContaner = () => {
   return (
-    <div>MovieContaner</div>
+    <div>
+      <MovieList/>
+    </div>
   )
 }
 
